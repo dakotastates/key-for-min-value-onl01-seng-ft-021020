@@ -6,10 +6,10 @@ def key_for_min_value(name_hash)
   lvalue=nil
   
   name_hash. do {|k, v|
-  if lvalue == nil || v < lvalue
+    if lvalue == nil || v < lvalue
     lvalue = v
     lkey = k
+    end
   end
-end
 k
 end
